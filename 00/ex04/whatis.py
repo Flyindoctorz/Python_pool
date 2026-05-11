@@ -11,8 +11,8 @@ if len(sys.argv) == 2:
 	try:
 		res = int(sys.argv[1])
 		whatis(res)
-	except AssertionError as e:
-		assert False,"argument is not an integer"		
+	except ValueError:
+		print("AssertionError: argument is not an integer")
 elif len(sys.argv) > 2:
 	try:
 		assert False, "more than one argument is provided"
