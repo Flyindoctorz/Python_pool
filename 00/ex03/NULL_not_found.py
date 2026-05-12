@@ -14,5 +14,5 @@ def NULL_not_found(object: any) -> int:
 		print(f"Fake {types}")
 	elif isinstance(object, str) and object:
 		print("Type not found")
-		return 1;
-	return 0;
+		return 1
+	return 0
