@@ -2,6 +2,7 @@ import os
 
 
 def ft_tqdm(lst: range) -> None:
+	'''create a Loading bar relative to lst'''
     total = len(lst)
     termin_width = os.get_terminal_size().columns
     for i, elem in enumerate(lst):
