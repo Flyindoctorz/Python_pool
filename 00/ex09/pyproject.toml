@@ -1,8 +1,8 @@
 [project]
 name = "ft_package"
 version = "0.0.1"
-authors = [{name = cgelgon}, {email = "cgelgon@42.fr"}]
-licence = {file = "LICENSE"}
+authors = [{name = "cgelgon", email = "cgelgon@42.fr"}]
+license = {text = "MIT"}
 description = "A sample test package"
 readme = "README.md"
 [build-system]

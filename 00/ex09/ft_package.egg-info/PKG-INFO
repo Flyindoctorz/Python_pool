@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: ft_package
+Version: 0.0.1
+Summary: A sample test package
+Author-email: cgelgon <cgelgon@42.fr>
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+*This project has been created as part of the 42 curriculum by cgelgon.*
+
+# ft_package : Building a package in Python
+everything is in the title.
